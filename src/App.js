@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Topnav from './comp/nav';
 import Sliders from './comp/sliders'
+import Footer from './comp/footer'
+import Contact from './comp/contact'
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         </p>
       </header>
        */}
-       
+       <Contact />
+       <Footer />
     </div>
   );
 }
